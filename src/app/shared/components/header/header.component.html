@@ -1,0 +1,8 @@
+
+    <mat-toolbar color="primary">
+      <a [routerLink]="['/']" ><span>My Store</span></a>
+      <span class="spacer"></span>
+      <div class="mouse__hover">
+        <app-cart (click)="goToCheckout()"></app-cart>
+      </div> 
+    </mat-toolbar>
